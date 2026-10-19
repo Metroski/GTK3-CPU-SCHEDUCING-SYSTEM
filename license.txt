@@ -1,0 +1,24 @@
+SERC Mini-OS
+Copyright (c) 2026 Emmanuel Nkaka (SIN: 23130711)
+SERC - School of Engineering and Resource Centre
+Course: CS225 Operating Systems
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+Project: SERC Mini-OS - Smart Emergency Response Center
+Lecturer: DR Ntalasha
+Group Members: Emmanuel Nkaka (23130711)
+
+For the complete GNU GPL v3 license, visit:
+https://www.gnu.org/licenses/gpl-3.0.en.html

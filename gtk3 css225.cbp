@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gtk3 css225" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gtk3 css225" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-mms-bitfields" />
+					<Add option="-I C:/msys64/mingw64/include/gtk-3.0" />
+					<Add option="-I C:/msys64/mingw64/include/pango-1.0" />
+					<Add option="-I C:/msys64/mingw64/include/glib-2.0" />
+					<Add option="-I C:/msys64/mingw64/lib/glib-2.0/include" />
+					<Add option="-I C:/msys64/mingw64/include/cairo" />
+					<Add option="-I C:/msys64/mingw64/include/gdk-pixbuf-2.0" />
+					<Add option="-I C:/msys64/mingw64/include/atk-1.0" />
+					<Add directory="C:/msys64/mingw64/include/gtk-3.0" />
+					<Add directory="C:/msys64/mingw64/include/glib-2.0" />
+					<Add directory="C:/msys64/mingw64/include/gdk-pixbuf-2.0" />
+					<Add directory="C:/msys64/mingw64/include/atk-1.0" />
+					<Add directory="C:/msys64/mingw64/include/pango-1.0" />
+					<Add directory="C:/msys64/mingw64/include/cairo" />
+					<Add directory="C:/msys64/mingw64/lib/glib-2.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-L C:/msys64/mingw64/lib" />
+					<Add option="-lgtk-3" />
+					<Add option="-lgdk-3" />
+					<Add option="-lpangocairo-1.0" />
+					<Add option="-lpango-1.0" />
+					<Add option="-latk-1.0" />
+					<Add option="-lgio-2.0" />
+					<Add option="-lgobject-2.0" />
+					<Add option="-lglib-2.0" />
+					<Add option="-lcairo" />
+					<Add option="-lgdk_pixbuf-2.0" />
+					<Add library="glib-2.0" />
+					<Add library="gobject-2.0" />
+					<Add library="gtk-3" />
+					<Add directory="C:/msys64/mingw64/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gtk3 css225" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/banker.h" />
+		<Unit filename="include/ipc.h" />
+		<Unit filename="include/logger.h" />
+		<Unit filename="include/memory.h" />
+		<Unit filename="include/memory_map.h" />
+		<Unit filename="include/os.h" />
+		<Unit filename="include/serc_printf.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/banker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ipc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/logger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/memory_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pcb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/scheduler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
